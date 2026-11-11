@@ -1,0 +1,26 @@
+.env
+nb-configuration.xml
+src/main/webapp/images/
+supabase/.temp/
+target/
+node_modules/
+src/main/webapp/assets/app.css
+
+work/
+
+.env
+.env.*
+!.env.example
+target/
+node_modules/
+*.log
+.vscode/
+.idea/
+
+# Seguridad CI/CD
+**/.env
+**/.env.*
+!.env.example
+**/node_modules/
+**/target/
+*.war
